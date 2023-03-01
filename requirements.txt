@@ -1,0 +1,3 @@
+stable-baselines3[extra]
+# gym[all]
+pyglet==1.5.27
