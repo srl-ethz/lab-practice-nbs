@@ -5,5 +5,3 @@ pyglet==1.5.27
 
 # below, the requirements for simple_robot_env
 mujoco
-mujoco-python-viewer
-pyyaml
