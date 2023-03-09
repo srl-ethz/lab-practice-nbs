@@ -16,4 +16,8 @@
             </body>
         </body>
     </worldbody>
+    <actuator>
+        <motor name="proximal" joint="proximal"/>
+        <motor name="distal" joint="distal"/>
+    </actuator>
 </mujoco>
