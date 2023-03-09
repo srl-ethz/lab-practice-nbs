@@ -1,7 +1,7 @@
 import numpy as np
 from gymnasium.wrappers.monitoring.video_recorder import VideoRecorder
 
-def record_video_gym(env, length=100):
+def simulate_and_record_video(env, length=100):
     """
     Record a video of the environment for a given number of steps and save it to a file.
     """
