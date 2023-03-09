@@ -33,7 +33,7 @@ class SimpleTorqueControlledRobot(gym.Env):
         assert render_mode is None or render_mode in self.metadata["render_modes"]
         self.render_mode = render_mode
         if self.render_mode == "rgb_array":
-            # self.ctx = mujoco.GLContext(600, 600)
+            self.ctx = mujoco.GLContext(600, 600)
             self.renderer = mujoco.Renderer(self.model)
     
     def _get_obs(self):

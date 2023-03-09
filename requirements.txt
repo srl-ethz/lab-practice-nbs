@@ -1,7 +1,2 @@
-stable-baselines3[extra]
-# gym[all]
-pyglet==1.5.27
-
-
-# below, the requirements for simple_robot_env
+gymnasium
 mujoco
